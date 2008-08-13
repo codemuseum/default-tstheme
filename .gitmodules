@@ -1,1 +1,4 @@
 
+[submodule "vendor/plugins/tsapp"]
+	path = vendor/plugins/tsapp
+	url = git://github.com/moorage/tsapp-rails.git
