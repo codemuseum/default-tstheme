@@ -1,2 +1,10 @@
-h1 {font-family:Georgia;}
-body {background-color:#eee;}
+body {background-color:#F4F4EA; }
+body, textarea {font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;}
+.app-navigation {background:#393129 url(/images/default/nav-bg.png) repeat-x scroll center center; -moz-border-radius: 10px; -webkit-border-radius: 10px; margin: 10px 20px;}
+.app-navigation a { color:#fafaf6; text-decoration:none; display:block; text-align:center; font-size:100%; padding-top:1em; padding-bottom:1em;}
+.app-navigation a:hover { color:#fafafa;   text-decoration:underline; }
+.app-navigation ul {margin:0px; width:100%; overflow:auto;}
+.app-navigation ul li {float:left;}
+.app-navigation ul.count-5 li { width: 20%;}
+
+.app-slideshow {margin:10px 20px;}
