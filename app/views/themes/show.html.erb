@@ -1,4 +1,7 @@
 <%
   javascripts params[:id]
   stylesheets params[:id]
+
+  alml_file = File.join('public', 'almls', "#{params[:id]}.alml")
+  @theme.alml = File.new(alml_file).read if File.exist?(alml_file)
 %>
