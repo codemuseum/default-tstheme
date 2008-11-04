@@ -4,7 +4,7 @@
     .outer
       .inside
         .lining
-          @header-and-logo
+          @name-and-logo-header
 
 ! Start Nav
 #navigation
@@ -23,5 +23,5 @@
 #footer
   .outside
     .inside
-       @footer-navigation
-       @footer-logo
+      @name-and-logo-footer
+      @footer-navigation
