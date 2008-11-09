@@ -40,14 +40,19 @@ div.hr { border-color: #9a8b6e; }
 
 #main_content .app-header-with-subtitle h1 .title { color:#9C4804; }
 
+#main_content .app-featured-listings-slider .feature a.feature-link,
 #main_content .app-classic-grouped-listing .listing a,
 #main_content .app-events-listing .event a { background: transparent url(/images/blue-mocha/listing-box-bg-ie.png) no-repeat bottom right; background /**/: transparent url(/images/blue-mocha/listing-box-bg.png) no-repeat bottom right; }
+#main_content .app-featured-listings-slider .feature a.feature-link:hover,
 #main_content .app-classic-grouped-listing .listing a:hover,
 #main_content .app-events-listing .event a:hover { background-image: url(/images/blue-mocha/listing-box-bg-hover-ie.png); background-image /**/: url(/images/blue-mocha/listing-box-bg-hover.png); }
+#main_content .app-featured-listings-slider .feature a.feature-link .name,
+#main_content .app-featured-listings-slider .feature a.feature-link:hover .name,
 #main_content .app-classic-grouped-listing .listing a .name,
 #main_content .app-classic-grouped-listing .listing a:hover .name,
 #main_content .app-events-listing .event a .name,
 #main_content .app-events-listing .event a:hover .name { color: #fff; }
+#main_content .app-featured-listings-slider .feature a.feature-link .description,
 #main_content .app-classic-grouped-listing .listing a .description,
 #main_content .app-events-listing .event a .description,
 #main_content .app-events-listing .event a .details  { color:#e2d5a0; }
