@@ -1,0 +1,84 @@
+body { padding:0; margin:0; color:#f9bcc0; background: #171717 url(/images/gunmetal-red/bg_ftr_inside_y.jpg) repeat-y scroll center top; }
+.inside { width:900px; margin:0 auto; padding:0 14px 0 14px; }
+a { color:#fff; }
+a:hover { color:#fff; background-color:#ea333f; }
+label .hint { color: #d9898e; }
+div.hr { border-color: #cb6c72; }
+
+/* -- header -- */
+#header { background:#372517 url(/images/gunmetal-red/bg_html.jpg) repeat-x left bottom; }
+#header .ring { background:transparent url(/images/gunmetal-red/bg_header_y.jpg) repeat-y center top; }
+#header .outer { background:transparent url(/images/gunmetal-red/bg_header.jpg) no-repeat center bottom; }
+#header a { color:#9E9E9E; }
+#header a:hover { color: #cd0311; background-color: transparent; }
+
+/* -- navigation -- */
+#navigation { background:#282828 url(/images/gunmetal-red/bg_nav.jpg) repeat-x left top; }
+#navigation .container { border-top:3px solid #3c3c3c; width:100%; }
+#navigation a { color: #c6c6c6; }
+#navigation .inside { background:#282828 url(/images/gunmetal-red/bg_nav_inside.jpg) no-repeat center top; padding-top: 25px; padding-bottom: 25px; }
+
+/* -- content -- */
+
+#main_content { color:#f9bcc0; border-top:3px solid #282828; border-bottom:1px solid #2e2e2e; background:#700309 url(/images/gunmetal-red/bg_content.jpg) repeat-x left top; }
+#main_content .inside { width:928px; padding:0; background:transparent url(/images/gunmetal-red/bg_cont_inside_y.jpg) repeat-y center top; }
+#main_content .inside #liquid { width:900px; margin:0 auto; padding:0 14px 0 14px; background:transparent url(/images/gunmetal-red/bg_cont_inside.jpg) no-repeat center top; }
+#main_content .inside #liquid .lining { padding: 25px 15px 25px 15px; }
+
+/* -- footer -- */
+#footer{ background:#171717 url(/images/gunmetal-red/bg_footer.jpg) repeat-x left top; border-top:2px solid #2e2e2e; }
+#footer .outside { background:transparent url(/images/gunmetal-red/bg_ftr_inside_y.jpg) repeat-y center top; }
+#footer .inside { background:transparent url(/images/gunmetal-red/bg_ftr_inside.jpg) no-repeat center top; color:#5e5e5e; font-size:80%; overflow:hidden; padding-top: 10px; text-align: center; }
+#footer .inside a { color:#5e5e5e; font-weight:bold; text-decoration:none; }
+#footer .inside a:hover{ color:#5b0107; background-color:#c8585f; text-decoration:none; }
+
+/* -- Page Objects -- */
+#footer .inside .app-name-and-logo-footer a.home-link:hover { background-color:transparent; color:#fff; }
+
+#main_content .app-header-with-subtitle h1 .title { color:#9C4804; }
+
+#main_content .app-classic-grouped-links .link a.link-link,
+#main_content .app-classic-grouped-links .link div.link-link,
+#main_content .app-classic-recent-listings .listing a.listing-link,
+#main_content .app-classic-sortable-listings .listing a.listing-link,
+#main_content .app-two-column-listing-grid .listing a.listing-link,
+#main_content .app-featured-listings-slider .feature a.feature-link,
+#main_content .app-classic-grouped-listing .listing a,
+#main_content .app-events-listing .event a { background: transparent url(/images/gunmetal-red/listing-box-bg-ie.png) no-repeat bottom right; background /**/: transparent url(/images/gunmetal-red/listing-box-bg.png) no-repeat bottom right; }
+
+#main_content .app-classic-grouped-links .link a.link-link:hover,
+#main_content .app-classic-recent-listings .listing a.listing-link:hover,
+#main_content .app-classic-sortable-listings .listing a.listing-link:hover,
+#main_content .app-two-column-listing-grid .listing a.listing-link:hover,
+#main_content .app-featured-listings-slider .feature a.feature-link:hover,
+#main_content .app-classic-grouped-listing .listing a:hover,
+#main_content .app-events-listing .event a:hover { background-image: url(/images/gunmetal-red/listing-box-bg-hover-ie.png); background-image /**/: url(/images/gunmetal-red/listing-box-bg-hover.png); }
+
+#main_content .app-classic-grouped-links .link div.link-link .name,
+#main_content .app-classic-grouped-links .link a .name,
+#main_content .app-classic-grouped-links .link a:hover .name,
+#main_content .app-classic-recent-listings .listing a .name,
+#main_content .app-classic-recent-listings .listing a:hover .name,
+#main_content .app-classic-sortable-listings .listing a .name,
+#main_content .app-classic-sortable-listings .listing a:hover .name,
+#main_content .app-two-column-listing-grid .listing a .name,
+#main_content .app-two-column-listing-grid .listing a:hover .name,
+#main_content .app-featured-listings-slider .feature a.feature-link .name,
+#main_content .app-featured-listings-slider .feature a.feature-link:hover .name,
+#main_content .app-classic-grouped-listing .listing a .name,
+#main_content .app-classic-grouped-listing .listing a:hover .name,
+#main_content .app-events-listing .event a .name,
+#main_content .app-events-listing .event a:hover .name { color: #fff; }
+
+#main_content .app-classic-grouped-links .link div.link-link .description,
+#main_content .app-classic-grouped-links .link div.link-link .details,
+#main_content .app-classic-grouped-links .link a .description,
+#main_content .app-classic-grouped-links .link a .details,
+#main_content .app-classic-recent-listings .listing a .description,
+#main_content .app-classic-sortable-listings .listing a .description,
+#main_content .app-two-column-listing-grid .listing a .description,
+#main_content .app-featured-listings-slider .feature a.feature-link .description,
+#main_content .app-classic-grouped-listing .listing a .description,
+#main_content .app-events-listing .event a .description,
+#main_content .app-events-listing .event a .details  { color:#dd737a; }
+

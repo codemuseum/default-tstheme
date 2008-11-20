@@ -1,5 +1,5 @@
 <%
-  javascripts params[:id]
+  javascripts params[:id] if File.exist?(File.join('public', 'javascripts', "#{params[:id]}.js"))
   stylesheets params[:id]
 
   alml_file = File.join('public', 'almls', "#{params[:id]}.alml")

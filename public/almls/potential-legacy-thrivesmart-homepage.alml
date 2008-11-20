@@ -1,6 +1,7 @@
 @:auto
 @header-with-subtitle
 @big-bold-text-area
+@datetime-range
 @app-mini-slideshow
 @app-call-to-action
 @wysiwyg-area

@@ -1,0 +1,27 @@
+! Start Header
+#header
+  .ring
+    .outer
+      .inside
+        .lining
+          @name-and-logo-header
+
+! Start Nav
+#navigation
+  .container
+    .inside	
+      @navigation
+
+! Start Content
+#main_content
+  .inside
+    #liquid
+      .lining
+        @:auto
+
+! Start Footer
+#footer
+  .outside
+    .inside
+      @name-and-logo-footer
+      @footer-navigation

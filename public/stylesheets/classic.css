@@ -1,0 +1,84 @@
+body { padding:0; margin:0; color:#99ccff; background: #F4F4F4 url(/images/classic/bg_ftr_inside_y.jpg) repeat-y scroll center top; }
+.inside { width:900px; margin:0 auto; padding:0 14px 0 14px; }
+a { color:#fff; }
+a:hover { color:#000A14; }
+label .hint { color: #CFC5B4; }
+div.hr { border-color: #73a2da; }
+
+/* -- header -- */
+#header { background:#fafafa url(/images/classic/bg_html.jpg) repeat-x left bottom; }
+#header .ring { background:transparent url(/images/classic/bg_header_y.jpg) repeat-y center top; }
+#header .outer { background:transparent url(/images/classic/bg_header.jpg) no-repeat center bottom; }
+#header a { color:#000A14; }
+#header a:hover { color: #999; background-color: transparent; }
+
+/* -- navigation -- */
+#navigation { background:#000 url(/images/classic/bg_nav.jpg) repeat-x left bottom; }
+#navigation .container { border-top:3px solid #29568B; width:100%; }
+#navigation a { color: #99ccff; }
+#navigation .inside { background:#000 url(/images/classic/bg_nav_inside.jpg) no-repeat center bottom; padding-top: 25px; padding-bottom: 25px; }
+
+/* -- content -- */
+
+#main_content { color:#99ccff; border-top:3px solid #000A14; border-bottom:1px solid #000A14; background:#29568B url(/images/classic/bg_content.jpg) repeat-x left top; }
+#main_content .inside { width:928px; padding:0; background:transparent url(/images/classic/bg_cont_inside_y.jpg) repeat-y center top; }
+#main_content .inside #liquid { width:900px; margin:0 auto; padding:0 14px 0 14px; background:transparent url(/images/classic/bg_cont_inside.jpg) no-repeat center top; }
+#main_content .inside #liquid .lining { padding: 25px 15px 25px 15px; }
+
+/* -- footer -- */
+#footer{ background:#f4f4f4 url(/images/classic/bg_footer.jpg) repeat-x left top; border-top:2px solid #000A14; }
+#footer .outside { background:transparent url(/images/classic/bg_ftr_inside_y.jpg) repeat-y center top; }
+#footer .inside { background:transparent url(/images/classic/bg_ftr_inside.jpg) no-repeat center top; color:#666; font-size:80%; overflow:hidden; padding-top: 10px; text-align: center; }
+#footer .inside a { color:#666; font-weight:bold; text-decoration:none; }
+#footer .inside a:hover{ color:#000; background-color:transparent; text-decoration:none; }
+
+/* -- Page Objects -- */
+#footer .inside .app-name-and-logo-footer a.home-link:hover { background-color:transparent; color:#000; }
+
+#main_content .app-header-with-subtitle h1 .title { color:#fff; }
+
+#main_content .app-classic-grouped-links .link a.link-link,
+#main_content .app-classic-grouped-links .link div.link-link,
+#main_content .app-classic-recent-listings .listing a.listing-link,
+#main_content .app-classic-sortable-listings .listing a.listing-link,
+#main_content .app-two-column-listing-grid .listing a.listing-link,
+#main_content .app-featured-listings-slider .feature a.feature-link,
+#main_content .app-classic-grouped-listing .listing a,
+#main_content .app-events-listing .event a { background: transparent url(/images/classic/listing-box-bg-ie.png) no-repeat bottom right; background /**/: transparent url(/images/classic/listing-box-bg.png) no-repeat bottom right; }
+
+#main_content .app-classic-grouped-links .link a.link-link:hover,
+#main_content .app-classic-recent-listings .listing a.listing-link:hover,
+#main_content .app-classic-sortable-listings .listing a.listing-link:hover,
+#main_content .app-two-column-listing-grid .listing a.listing-link:hover,
+#main_content .app-featured-listings-slider .feature a.feature-link:hover,
+#main_content .app-classic-grouped-listing .listing a:hover,
+#main_content .app-events-listing .event a:hover { background-image: url(/images/classic/listing-box-bg-hover-ie.png); background-image /**/: url(/images/classic/listing-box-bg-hover.png); }
+
+#main_content .app-classic-grouped-links .link div.link-link .name,
+#main_content .app-classic-grouped-links .link a .name,
+#main_content .app-classic-grouped-links .link a:hover .name,
+#main_content .app-classic-recent-listings .listing a .name,
+#main_content .app-classic-recent-listings .listing a:hover .name,
+#main_content .app-classic-sortable-listings .listing a .name,
+#main_content .app-classic-sortable-listings .listing a:hover .name,
+#main_content .app-two-column-listing-grid .listing a .name,
+#main_content .app-two-column-listing-grid .listing a:hover .name,
+#main_content .app-featured-listings-slider .feature a.feature-link .name,
+#main_content .app-featured-listings-slider .feature a.feature-link:hover .name,
+#main_content .app-classic-grouped-listing .listing a .name,
+#main_content .app-classic-grouped-listing .listing a:hover .name,
+#main_content .app-events-listing .event a .name,
+#main_content .app-events-listing .event a:hover .name { color: #fff; }
+
+#main_content .app-classic-grouped-links .link div.link-link .description,
+#main_content .app-classic-grouped-links .link div.link-link .details,
+#main_content .app-classic-grouped-links .link a .description,
+#main_content .app-classic-grouped-links .link a .details,
+#main_content .app-classic-recent-listings .listing a .description,
+#main_content .app-classic-sortable-listings .listing a .description,
+#main_content .app-two-column-listing-grid .listing a .description,
+#main_content .app-featured-listings-slider .feature a.feature-link .description,
+#main_content .app-classic-grouped-listing .listing a .description,
+#main_content .app-events-listing .event a .description,
+#main_content .app-events-listing .event a .details  { color:#99CCFF; }
+

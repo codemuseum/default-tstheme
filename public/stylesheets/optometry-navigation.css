@@ -58,7 +58,7 @@
 .app-navigation ul li.home a { background-image: url(/images/optometry-navigation/home.gif); background-image /**/: url(/images/optometry-navigation/home.png); }
 .app-navigation ul li.links a { background-image: url(/images/optometry-navigation/link.gif); background-image /**/: url(/images/optometry-navigation/link.png); }
 .app-navigation ul li.contact a { background-image: url(/images/optometry-navigation/location.gif); background-image /**/: url(/images/optometry-navigation/location.png); }
-.app-navigation ul li.payment a { background-image: url(/images/optometry-navigation/link.gif); background-image /**/: url(/images/optometry-navigation/payment.png); }
+.app-navigation ul li.payment a { background-image: url(/images/optometry-navigation/payment.gif); background-image /**/: url(/images/optometry-navigation/payment.png); }
 .app-navigation ul li.policies a { background-image: url(/images/optometry-navigation/policy.gif); background-image /**/: url(/images/optometry-navigation/policy.png); }
 .app-navigation ul li.products a { background-image: url(/images/optometry-navigation/product.gif); background-image /**/: url(/images/optometry-navigation/product.png); }
 .app-navigation ul li.services a { background-image: url(/images/optometry-navigation/service.gif); background-image /**/: url(/images/optometry-navigation/service.png); }

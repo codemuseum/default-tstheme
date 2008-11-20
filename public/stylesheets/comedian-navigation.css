@@ -1,0 +1,70 @@
+/* yet another hack for ie... one for list spacing, the other for link clickability */
+*:first-child+html .app-navigation ul,
+*:first-child+html .app-navigation ul li a { zoom:1; } 
+*:first-child+html .action-edit .app-navigation ul li a { zoom:normal; }
+
+* html .app-navigation ul,
+* html .app-navigation ul li a { zoom:1; }
+* html .action-edit .app-navigation ul li a { zoom:normal; }
+.app-navigation {overflow:auto;}
+
+.app-navigation ul li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  display: block;
+  margin-bottom: 0px;
+}
+
+.app-navigation ul li a {
+  display: block;
+  font-size: 80%;
+  font-weight: normal;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 2px;
+  padding-top: 80px;
+}
+
+.app-navigation ul a:hover {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/* -- widths -- */
+.app-navigation ul li,
+.app-navigation ul li { width: 125px; }
+.app-navigation ul.count-1 { margin-left: 372px; }
+.app-navigation ul.count-1 li { padding-left: 15px; }
+.app-navigation ul.count-2 { margin-left: 251px; }
+.app-navigation ul.count-2 li { padding-left: 37px;padding-right:37px; }
+.app-navigation ul.count-3 { margin-left: 100px; }
+.app-navigation ul.count-3 li { padding-left:54px;padding-right:54px; }
+.app-navigation ul.count-4 { margin-left: 52px; }
+.app-navigation ul.count-4 li { padding-left:37px;padding-right:37px; }
+.app-navigation ul.count-5 { margin-left: 3px; }
+.app-navigation ul.count-5 li { padding-left:27px;padding-right:27px; }
+.app-navigation ul.count-6 { margin-left: 3px; }
+.app-navigation ul.count-6 li { padding-left:12px;padding-right:12px; }
+.app-navigation ul.count-7 li { padding-left:4px;padding-right:4px; width: 120px; }
+.app-navigation ul.count-8 li { padding-left:4px;padding-right:4px; width: 104px; }
+.app-navigation ul.count-9 li { padding-left:2px;padding-right:2px; width: 96px; }
+/* -- icons --  display-icons-box */
+.app-navigation ul li.about a { background-image: url(/images/comedian-navigation/about.gif); background-image /**/: url(/images/comedian-navigation/about.png); }
+.app-navigation ul li.home a { background-image: url(/images/comedian-navigation/home.gif); background-image /**/: url(/images/comedian-navigation/home.png); }
+.app-navigation ul li.links a { background-image: url(/images/comedian-navigation/link.gif); background-image /**/: url(/images/comedian-navigation/link.png); }
+.app-navigation ul li.contact a { background-image: url(/images/comedian-navigation/location.gif); background-image /**/: url(/images/comedian-navigation/location.png); }
+.app-navigation ul li.payment a { background-image: url(/images/comedian-navigation/payment.gif); background-image /**/: url(/images/comedian-navigation/payment.png); }
+.app-navigation ul li.policies a { background-image: url(/images/comedian-navigation/policy.gif); background-image /**/: url(/images/comedian-navigation/policy.png); }
+.app-navigation ul li.products a { background-image: url(/images/comedian-navigation/product.gif); background-image /**/: url(/images/comedian-navigation/product.png); }
+.app-navigation ul li.services a { background-image: url(/images/comedian-navigation/service.gif); background-image /**/: url(/images/comedian-navigation/service.png); }
+.app-navigation ul li.staff a { background-image: url(/images/comedian-navigation/staff.gif); background-image /**/: url(/images/comedian-navigation/staff.png); }
+.app-navigation ul li.events a { background-image: url(/images/comedian-navigation/event.gif); background-image /**/: url(/images/comedian-navigation/event.png); }
+.app-navigation ul li.articles a { background-image: url(/images/comedian-navigation/article.gif); background-image /**/: url(/images/comedian-navigation/article.png); }
+.app-navigation ul li.members a { background-image: url(/images/comedian-navigation/member.gif); background-image /**/: url(/images/comedian-navigation/member.png); }
+/* edting icons */
+.app-navigation ul li a.delete-top-nav-item {position: absolute; margin-top: -10px;margin-left: -53px; margin-left /**/:6px;}
