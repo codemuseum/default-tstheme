@@ -13,7 +13,8 @@
   list-style: none;
   text-align: center;
   display: block;
-  margin-bottom: 0px;
+  margin-top:1px;
+  margin-bottom:1px;
 }
 
 .app-navigation ul li a {

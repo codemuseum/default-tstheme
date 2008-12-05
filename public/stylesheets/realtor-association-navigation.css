@@ -6,14 +6,15 @@
 * html .app-navigation ul,
 * html .app-navigation ul li a { zoom:1; }
 * html .action-edit .app-navigation ul li a { zoom:normal; }
-.app-navigation {overflow:auto;}
+.app-navigation {overflow:auto; }
 
 .app-navigation ul li {
   float: left;
   list-style: none;
   text-align: center;
   display: block;
-  margin-bottom: 0px;
+  margin-top:1px;
+  margin-bottom:1px;
 }
 
 .app-navigation ul li a {
