@@ -55,17 +55,17 @@
 .app-navigation ul.count-8 li { padding-left:4px;padding-right:4px; width: 104px; }
 .app-navigation ul.count-9 li { padding-left:2px;padding-right:2px; width: 96px; }
 /* -- icons --  display-icons-box */
-.app-navigation ul li.about a { background-image: url(/images/optometry-association-navigation/about.gif); background-image /**/: url(/images/optometry-association-navigation/about.png); }
-.app-navigation ul li.home a { background-image: url(/images/optometry-association-navigation/home.gif); background-image /**/: url(/images/optometry-association-navigation/home.png); }
-.app-navigation ul li.links a { background-image: url(/images/optometry-association-navigation/link.gif); background-image /**/: url(/images/optometry-association-navigation/link.png); }
-.app-navigation ul li.contact a { background-image: url(/images/optometry-association-navigation/location.gif); background-image /**/: url(/images/optometry-association-navigation/location.png); }
-.app-navigation ul li.payment a { background-image: url(/images/optometry-association-navigation/payment.gif); background-image /**/: url(/images/optometry-association-navigation/payment.png); }
-.app-navigation ul li.policies a { background-image: url(/images/optometry-association-navigation/policy.gif); background-image /**/: url(/images/optometry-association-navigation/policy.png); }
-.app-navigation ul li.products a { background-image: url(/images/optometry-association-navigation/product.gif); background-image /**/: url(/images/optometry-association-navigation/product.png); }
-.app-navigation ul li.services a { background-image: url(/images/optometry-association-navigation/service.gif); background-image /**/: url(/images/optometry-association-navigation/service.png); }
-.app-navigation ul li.staff a { background-image: url(/images/optometry-association-navigation/staff.gif); background-image /**/: url(/images/optometry-association-navigation/staff.png); }
-.app-navigation ul li.events a { background-image: url(/images/optometry-association-navigation/event.gif); background-image /**/: url(/images/optometry-association-navigation/event.png); }
-.app-navigation ul li.articles a { background-image: url(/images/optometry-association-navigation/article.gif); background-image /**/: url(/images/optometry-association-navigation/article.png); }
-.app-navigation ul li.members a { background-image: url(/images/optometry-association-navigation/member.gif); background-image /**/: url(/images/optometry-association-navigation/member.png); }
+.app-navigation ul li.about a { background-image: url(/classicthemes/images/optometry-association-navigation/about.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/about.png); }
+.app-navigation ul li.home a { background-image: url(/classicthemes/images/optometry-association-navigation/home.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/home.png); }
+.app-navigation ul li.links a { background-image: url(/classicthemes/images/optometry-association-navigation/link.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/link.png); }
+.app-navigation ul li.contact a { background-image: url(/classicthemes/images/optometry-association-navigation/location.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/location.png); }
+.app-navigation ul li.payment a { background-image: url(/classicthemes/images/optometry-association-navigation/payment.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/payment.png); }
+.app-navigation ul li.policies a { background-image: url(/classicthemes/images/optometry-association-navigation/policy.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/policy.png); }
+.app-navigation ul li.products a { background-image: url(/classicthemes/images/optometry-association-navigation/product.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/product.png); }
+.app-navigation ul li.services a { background-image: url(/classicthemes/images/optometry-association-navigation/service.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/service.png); }
+.app-navigation ul li.staff a { background-image: url(/classicthemes/images/optometry-association-navigation/staff.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/staff.png); }
+.app-navigation ul li.events a { background-image: url(/classicthemes/images/optometry-association-navigation/event.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/event.png); }
+.app-navigation ul li.articles a { background-image: url(/classicthemes/images/optometry-association-navigation/article.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/article.png); }
+.app-navigation ul li.members a { background-image: url(/classicthemes/images/optometry-association-navigation/member.gif); background-image /**/: url(/classicthemes/images/optometry-association-navigation/member.png); }
 /* edting icons */
 .app-navigation ul li a.delete-top-nav-item {position: absolute; margin-top: -10px;margin-left: -53px; margin-left /**/:6px;}
